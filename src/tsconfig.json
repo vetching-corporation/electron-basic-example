@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "typeRoots": ["react-app-env.d.ts"],
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx"
+  },
+  "include": ["./**/*"],
+  "exclude": ["./main/**/*", "./test/**/*"]
+}
